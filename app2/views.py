@@ -1,3 +1,8 @@
 from django.shortcuts import render
 
-# Create your views here.
+def ofertas(request):
+    return render(request, 'app2/ofertas.html')
+
+
+def contacto(request):
+    return render(request, 'app2/contacto.html')
